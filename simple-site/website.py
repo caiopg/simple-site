@@ -13,7 +13,6 @@ def plot():
     cdn = candlechart.fetch_cdn()
 
     return render_template("plot.html", cdn_css = cdn["cdn_css"], cdn_js = cdn["cdn_js"],
-    script=comps["script"], div=comps["div"])
 
 @app.route('/about')
 def about():
