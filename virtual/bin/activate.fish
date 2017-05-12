@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/caio/repos/simplesite/simple-site/virtual"
+set -gx VIRTUAL_ENV "/Users/caio/Desktop/python/simple-website/simple-site/virtual"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
